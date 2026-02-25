@@ -218,7 +218,7 @@ function StickyMobileCTA({ visible }) {
               className="w-full py-4 rounded-full text-sm font-semibold tracking-wide active:scale-[0.97]"
               style={{ fontFamily: font.body, background: B.accent, color: B.bg, boxShadow: "0 -4px 30px rgba(0,0,0,0.5)" }}
             >
-              Initialize Your OS — $29.99/mo
+              Initialize Your OS — $19.99/mo
             </button>
           </div>
         </motion.div>
@@ -275,7 +275,7 @@ function Hero() {
           transition={{ duration: 0.8, delay: 1.0 }}
           className="flex flex-col sm:flex-row items-start gap-4"
         >
-          <CTAButton>Initialize Your OS — $29.99/mo</CTAButton>
+          <CTAButton>Initialize Your OS — $19.99/mo</CTAButton>
           <GhostButton>See How It Works ↓</GhostButton>
         </motion.div>
       </div>
@@ -534,7 +534,7 @@ function MidCTA() {
     <section className="py-16 px-6">
       <div className="max-w-xl mx-auto text-center">
         <FadeIn>
-          <CTAButton>Start Your Transformation — $29.99/mo</CTAButton>
+          <CTAButton>Start Your Transformation — $19.99/mo</CTAButton>
           <p className="text-xs mt-4" style={{ fontFamily: font.body, color: B.dim }}>Cancel anytime. No contracts.</p>
         </FadeIn>
       </div>
@@ -742,7 +742,7 @@ function Pricing() {
         <FadeIn delay={0.3}>
           <Glass className="p-8 sm:p-12 max-w-lg mx-auto text-left">
             <div className="flex items-baseline gap-2 mb-2">
-              <span className="text-5xl sm:text-6xl font-bold" style={{ fontFamily: font.display, color: B.accent }}>$29.99</span>
+              <span className="text-5xl sm:text-6xl font-bold" style={{ fontFamily: font.display, color: B.accent }}>$19.99</span>
               <span className="text-base" style={{ fontFamily: font.body, color: B.muted }}>/mo</span>
             </div>
             <p className="text-xs mb-10" style={{ fontFamily: font.body, color: B.dim }}>Cancel anytime. No contracts. No friction.</p>
@@ -845,7 +845,7 @@ function FinalCTA() {
         </FadeIn>
 
         <FadeIn delay={0.2}>
-          <CTAButton>Initialize Your OS — $29.99/mo</CTAButton>
+          <CTAButton>Initialize Your OS — $19.99/mo</CTAButton>
         </FadeIn>
       </div>
     </section>
